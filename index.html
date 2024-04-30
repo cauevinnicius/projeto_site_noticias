@@ -56,48 +56,47 @@
         </nav>
     </header>
 
-    <main>
-        <div class="container conteudo">
+    <div class="container conteudo">
+        <main>
             <section class="destaque">
                 <h2>Em destaque</h2>
                 <article class="noticia">
                     <a href="#">
                         <img src="https://via.placeholder.com/320x320" alt="">
-                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo maxime et placeat accusantium delectus nisi totam voluptates</h3>
+                        <h3>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo maxime et placeat accusantium delectus nisi totam voluptates
+                        </h3>
                     </a>
                 </article>
-            </section>    
+            </section> 
             <section>
                 <h2>Últimas notícias</h2>
                 <div class="noticias">
-                <article class="noticia">
-                    <a href="#">
-                        <img src="https://via.placeholder.com/320x320" alt="">
-                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo maxime et placeat accusantium delectus nisi totam voluptates</h3>
-                    </a>
-                </article>
-                <article class="noticia">
-                    <a href="#">
-                        <img src="https://via.placeholder.com/320x320" alt="">
-                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo maxime et placeat accusantium delectus nisi totam voluptates</h3>
-                    </a>
-                </article>
-                <article class="noticia">
-                    <a href="#">
-                        <img src="https://via.placeholder.com/320x320" alt="">
-                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo maxime et placeat accusantium delectus nisi totam voluptates</h3>
-                    </a>
-                </article>
-                <article class="noticia">
-                    <a href="#">
-                        <img src="https://via.placeholder.com/320x320" alt="">
-                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo maxime et placeat accusantium delectus nisi totam voluptates</h3>
-                    </a>
+                    <article class="noticia">
+                        <a href="#">
+                            <img src="https://via.placeholder.com/320x320" alt="">
+                            <h3>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo maxime et placeat accusantium delectus nisi totam voluptates
+                            </h3>
+                        </a>
+                    </article>
+                    <article class="noticia">
+                        <a href="#">
+                            <img src="https://via.placeholder.com/320x320" alt="">
+                            <h3>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo maxime et placeat accusantium delectus nisi totam voluptates
+                            </h3>
+                        </a>
+                    </article>
+                    <article class="noticia">
+                        <a href="#">
+                            <img src="https://via.placeholder.com/320x320" alt="">
+                            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo maxime et placeat accusantium delectus nisi totam voluptates</h3>
+                        </a>
+                    </article>
                 </div>
-                </article>
-            </section>
-            </main>
-
+            </section>  
+        </main>
         <aside>
             <section class="novidades">
                 <h2>Novidades</h2>
@@ -119,7 +118,24 @@
                         <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo maxime et placeat accusantium delectus nisi totam voluptates</h3>
                     </a>
                 </article>
+                <article class="noticia">
+                    <a href="#">
+                        <img src="https://via.placeholder.com/320x320" alt="">
+                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo maxime et placeat accusantium delectus nisi totam voluptates</h3>
+                    </a>
+                </article>
             </section>
         </aside>
+    </main>
+</div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function() {
+            $('.botao-menu button').click(function(){
+                $('.menu').slideToggle();
+            })
+        })
+    </script>
 </body>
 </html>
